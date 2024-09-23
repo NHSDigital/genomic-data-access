@@ -1,0 +1,4 @@
+<APIProxy name="gda">
+  <!-- This is the root of the application -->
+  <Description>"genomic-data-access"</Description>
+</APIProxy>
