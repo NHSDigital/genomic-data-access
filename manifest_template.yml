@@ -22,8 +22,8 @@ APIGEE_ENVIRONMENTS:
   # - name: internal-qa-sandbox
   #   display_name: Internal QA Sandbox
   #   product_visibility: private
-  # - name: sandbox
-  #   display_name: Sandbox
+  - name: sandbox
+    display_name: Sandbox
   #   product_visibility: private
   # - name: int
   #   display_name: Integration Testing
