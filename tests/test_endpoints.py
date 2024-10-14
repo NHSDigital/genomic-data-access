@@ -10,6 +10,7 @@ from os import getenv
 
 @pytest.mark.smoketest
 def test_ping(nhsd_apim_proxy_url):
+    print(f"URL under test: {nhsd_apim_proxy_url}/_ping")
     resp = requests.get(f"{nhsd_apim_proxy_url}/_ping")
     assert resp.status_code == 200
 
